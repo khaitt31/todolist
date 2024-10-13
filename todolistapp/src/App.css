@@ -1,0 +1,26 @@
+.App {
+  text-align: center;
+}
+
+.todoapp{
+  border: 1px solid black;
+  margin: 20px auto;
+  width: 500px;
+
+}
+
+.todo_item{
+  display: flex;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  background-color: #ffc0ffCB;
+}
+
+.todo_item span {
+  flex-grow: 1;
+}
+
+.todo_item.complete {
+  background: gainsboro;
+  text-decoration: line-through;
+}
